@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Резюме - Борисполець Марина</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+<h1>Борисполець Марина Дмитрівна</h1>
+<p>Студентка спеціальності «Кібербезпека»</p>
+<button id="themeToggle" type="button">Перемкнути тему</button>
+</header>
+<main class="container">
+<section class="card">
+<h2>Про мене</h2>
+</section>
+<p>Навчаюся у Національному університеті «Львівська політехніка» на спеціальності «Кібербезпека».</p>
+<section class="card">
+<h2>Коментарі попередніх роботодавців</h2>
+<div id="comments">Завантаження коментарів...</div>
+</section>
+</main>
+<div id="feedbackModal" class="modal">
+<div class="modal-content">
+<span id="closeModal" class="close">&times;</span>
+<h2>Форма зворотного зв'язку</h2>
+<form action="https://formspree.io/f/ВАШ
+_
+<label>Ім'я</label>
+<input type="text" name="name" required>
+ЕНДПОЙНТ" method="POST">
+<label>Email</label>
+<input type="email" name="email" required>
+<label>Номер телефону</label>
+<input type="tel" name="phone" required>
+<label>Повідомлення</label>
+<textarea name="message" rows="5" required></textarea>
+<button type="submit">Відправити</button>
+</form>
+</div>
+</div>
+<footer id="footerInfo"></footer>
+<script src="script.js"></script>
+</body>
+</html>
